@@ -1,0 +1,92 @@
+fieldset {
+    padding: 30px 20px;
+    background-color: #ecf1ff;
+    width: 50%;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+
+label {
+    font-size: 18px;
+    font-weight: 550;
+}
+
+input[type=text] {
+    width: 50%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type=phone] {
+    width: 50%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type=email] {
+    width: 50%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#address {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="date"] {
+    padding: 8px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 8px 0;
+}
+
+input[type=password] {
+    width: 50%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#submitButton {
+    width: 30%;
+    background-color: #4169E1;
+    color: white;
+    padding: 14px 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#submitButton[disabled] {
+    width: 30%;
+    background-color: #c7c7c7;
+    color: #5e5e5e;
+    padding: 14px 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

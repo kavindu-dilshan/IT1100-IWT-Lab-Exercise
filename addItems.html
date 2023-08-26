@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Shopping Cart</title>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <link rel="stylesheet" type="text/css" href="styles/formStyles.css">
+</head>
+<body>
+    <img src="images/logo.png" alt="Shopping Cart Logo" class="center" width="200" height="200">
+    <center>
+        <h1>Shopping Cart</h1>
+        <h3 id="subheader">The Online Shopping Store</h3>
+    <hr>
+    <ul class="menu">
+        <li class="menu"><a href="index.html">Home</a></li>
+        <li class="menu"><a href="news.html">News</a></li>
+        <li class="menu"><a href="register.html">Contact</a></li>
+        <li class="menu"><a href="about.php">About Us</a></li>
+    </ul>
+    <br><br>
+    <fieldset>
+        <form method="POST" action="submitAddItems.php">
+            <label>Item Name</label><br>
+                <input type="text" name="field1"><br><br>
+            <label>Item Code</label><br>
+                <input type="text" name="field2" ><br><br>
+            <label>Price</label><br>
+                <input type="text" name="field3"><br><br>
+            <label>Quantity</label><br>
+                <input type="text" name="field4"><br><br>
+            <label>Description:</label><br>
+                <textarea id="address" name="field5" rows="8" cols="50"></textarea><br><br>
+                
+                <input type="submit" class="ButtonN" id="submitButton02" value="Add Item">
+            </form>
+    </fieldset><br>
+    <hr>
+
+    <footer>
+        <h3 id="footer">Created By: Kavindu Dilshan</h3>
+        <h4 id="footer"><a href="http://courseweb.sliit.lk/">Visit to Our Course</a></h4>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Shopping Cart</title>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <link rel="stylesheet" type="text/css" href="styles/formStyles.css">
+
+    <script>
+        function checkPassword() {
+            if(document.getElementById("password").value != document.getElementById("confirmPassword").value) {
+                alert("Password Mismatch!");
+                return false;
+            }
+            else {
+                alert("Success!");
+                return true;
+            }
+        }
+
+        function enableButton() {
+			if (document.getElementById("checkbox").checked) {
+                document.getElementById("submitButton").disabled = false;
+			}
+			else {
+                document.getElementById("submitButton").disabled = true;
+			}
+		}
+
+		//alert("Contact Page Loaded");
+    </script>
+</head>
+<body>
+    <img src="images/logo.png" alt="Shopping Cart Logo" class="center" width="200" height="200">
+    <center>
+        <h1>Shopping Cart</h1>
+        <h3 id="subheader">The Online Shopping Store</h3>
+    <hr>
+    <ul class="menu">
+        <li class="menu"><a href="index.html">Home</a></li>
+        <li class="menu"><a href="news.html">News</a></li>
+        <li class="menu"><a href="register.html">Contact</a></li>
+        <li class="menu"><a href="about.php">About Us</a></li>
+    </ul>
+    <br>
+
+    <h2>Registration Form</h2>
+
+    <fieldset>
+        <form action="submitRegistration.php" target="" method="POST" onsubmit="return checkPassword()">
+            <label>First Name</label><br>
+            <input type="text" name="firstname" placeholder="First Name" required><br><br>
+            
+            <label>Last Name</label><br>
+            <input type="text" name="lastname" pLaceholder="Last Name" required><br><br>
+            
+            <label>Gender</label><br>
+            <input type="radio" name="gender" checked>Male
+            <input type="radio" name="gender">Female<br><br><br>
+  
+            <label>Mobile Number</label><br>
+            <input type="phone" name="mobile" pattern="[0-9]{10}" placeholder="07XXXXXXXX"required><br><br>
+            
+            <label>Email</label><br>
+            <input type="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}" placeholder="abc@gmail.com" required><br><br>
+            
+            <label>Address</label><br>
+            <textarea id="address" name="address" rows="8" cols="50" required></textarea><br><br>
+            
+            <label>Choose your DOB</label><br>
+            <input type="date" name="dob" required><br><br>
+            
+            <label>Password</label><br>
+            <input type="password" id="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.+[A-Z]){5,10}"><br>
+            <pa style="color:red; font-size:14px;">Password should contain uppercase letters, lowercase letters, numbers, minimum 5 and maximum 10 characters.</pa><br><br><br>
+            
+            <label>Re-enter Password</label><br>
+            <input type="password" id="confirmPassword" required><br><br>
+            
+            <input type="checkbox" class="inputstyle" id="checkbox" onclick="enableButton()"> accept privacy policy and terms.<br><br>
+            
+            <input type="submit" id="submitButton" value="Submit" disabled>
+          </form>
+    </fieldset><br>
+    </center>
+    <hr>
+    <footer>
+        <h3 id="footer">Created By: Kavindu Dilshan</h3>
+        <h4 id="footer"><a href="http://courseweb.sliit.lk/">Visit to Our Course</a></h4>
+    </footer>
+</body>
+</html>

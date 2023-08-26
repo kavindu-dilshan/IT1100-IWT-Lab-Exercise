@@ -1,0 +1,193 @@
+body{
+	background-image: url("../images/background-image.jpg");
+	background-size: cover;
+	font-family: sans-serif;
+}
+
+.center{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1{
+	font-family: sans-serif;
+	font-size: 50px;
+}
+
+h3#subheader{
+	font-family: sans-serif;
+	font-size: 25px;
+}
+
+hr{
+	border-top: 2px solid black;
+}
+
+ul.menu{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #141414;
+}
+
+li.menu{
+	float: left;
+}
+
+li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-family: sans-serif;
+}
+
+li a:hover{
+	background-color: #4169E1;
+}
+
+.productData{
+	background-color: white;
+}
+
+.col1{
+	text-align: center;
+}
+
+.col2{
+	text-align: left;
+	padding-left: 23px;
+}
+
+.rData{
+	text-align: center;
+	padding-right: 23px;
+}
+
+div.tbl{
+	margin-top: 15px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+#footer{
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.phoneButton{
+    width: 10%;
+    background-color: #4169E1;
+    color: white;
+    padding: 12px 0px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+	text-decoration: none;
+}
+
+.phoneButton:hover{
+	background-color: #223d8f;
+}
+
+.averageButton{
+    width: 10%;
+    background-color: #1DBF73;
+    color: white;
+    padding: 12px 0px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.averageButton:hover{
+	background-color: #157c4c;
+}
+
+.ButtonE{
+    width: 100%;
+    background-color: #1DBF73;
+    color: white;
+    padding: 12px 0px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.ButtonE:hover{
+	background-color: #157c4c;
+}
+
+.priceButton{
+    width: 10%;
+    background-color: #DC143C;
+    color: white;
+    padding: 12px 0px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.priceButton:hover{
+	background-color: #b31635;
+}
+
+.ButtonD{
+    width: 100%;
+    background-color: #DC143C;
+    color: white;
+    padding: 12px 0px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.ButtonD:hover{
+	background-color: #b31635;
+}
+
+.addButton{
+    width: 7%;
+    background-color: #4169E1;
+    color: white;
+    padding: 12px 0px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+	text-decoration: none;
+}
+
+.addButton:hover{
+	background-color: #223d8f;
+}
+
+.ButtonN{
+    width: 15%;
+    background-color: #4169E1;
+    color: white;
+    padding: 12px 0px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+	text-decoration: none;
+}
+
+.ButtonN:hover{
+	background-color: #223d8f;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}

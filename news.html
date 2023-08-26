@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Shopping Cart</title>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <script src="js/myScript.js"></script>
+    
+    <script>
+    alert("News Page Loaded");
+    document.write(Date())
+    </script>
+
+</head>
+<body>
+    <img src="images/logo.png" alt="Shopping Cart Logo" class="center" width="200" height="200">
+    <center>
+        <h1>Shopping Cart</h1>
+        <h3 id="subheader">The Online Shopping Store</h3>
+    <hr>
+    <ul class="menu">
+        <li class="menu"><a href="index.html">Home</a></li>
+        <li class="menu"><a href="news.html">News</a></li>
+        <li class="menu"><a href="register.html">Contact</a></li>
+        <li class="menu"><a href="about.php">About Us</a></li>
+    </ul>
+    <br>
+    <div>
+        <button type="button" class="phoneButton" id="btn1" onclick="loadData('btn1')">Iphone XS</button>
+        <button type="button" class="phoneButton" id="btn2" onclick="loadData('btn2')">Iphone XS Max</button>
+        <button type="button" class="phoneButton" id="btn3" onclick="loadData('btn3')">Iphone 8s Plus</button>
+        <button type="button" class="phoneButton" id="btn4" onclick="loadData('btn4')">Iphone SE</button>
+
+        <button type="button" class="averageButton" onclick="priceForInLoop()">Average Price</button>
+
+        <button type="button" class="priceButton" onclick="priceHigher()">Prices Higher than 1000</button>
+        <button type="button" class="priceButton" onclick="priceLower()">Prices Lower than 1000</button><br><br>
+    </div>
+    <img id="image" src="images/higher.jpg" alt="Product Image">
+    <p class="text" id="para">iPhones, developed and marketed by Apple Inc., have redefined the smartphone landscape since their initial release in 2007. Known for their sleek design, cutting-edge technology, and user-friendly interface, iPhones have garnered a massive global following. With each new generation, Apple continues to push the boundaries of innovation, introducing improved cameras, faster processors, and advanced features that enhance the overall user experience. The seamless integration of hardware, software, and services makes iPhones stand out in the market, allowing users to access a vast array of apps, games, and entertainment content through the App Store. Moreover, iPhones have become more than just communication devices; they serve as indispensable tools for productivity, creativity, and personal well-being. With a loyal community of users, a thriving app ecosystem, and regular software updates, iPhones maintain their reputation as a symbol of prestige and reliability in the ever-evolving world of smartphones.</p>
+	</center>
+    <hr>
+    <footer>
+        <h3 id="footer">Created By: Kavindu Dilshan</h3>
+        <h4 id="footer"><a href="http://courseweb.sliit.lk/">Visit to Our Course</a></h4>
+    </footer>
+</body>
+</html>
